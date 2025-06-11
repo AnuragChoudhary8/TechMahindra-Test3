@@ -26,11 +26,13 @@ The Fitness Tracker App helps users log their daily workouts with details such a
 
 1. **Home Screen**  
    Displays today's workout activities and allows quick addition of new workouts.
+   ![WhatsApp Image 2025-06-09 at 17 00 49_c3a6c3f3](https://github.com/user-attachments/assets/56cfa93f-de2b-4fcb-bc8e-ee239a267441)
 
-2. **Progress Screen**  
+
+3. **Progress Screen**  
    Visualizes the number of workouts per category and duration of each workout using bar charts.
 
-3. **BMI Screen**  
+4. **BMI Screen**  
    Simple BMI calculator where users input weight (kg) and height (cm) to get BMI and health status.
 
 ---
@@ -67,16 +69,16 @@ fitness_app/
 
 1. Clone the repository : by copying the Url and write the Command
 
-    git clone 'url'
+    **git clone 'url'**
 
 3. Navigate to the project Directory
 
-    cd fitness_app
+    **cd fitness_app**
 
 5. Install Dependencies by this Command
    
-    flutter pub get
+    **flutter pub get**
 
 7. Run project by this Command
    
-    flutter run 
+    **flutter run** 
