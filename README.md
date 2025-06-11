@@ -26,20 +26,26 @@ The Fitness Tracker App helps users log their daily workouts with details such a
 
 1. **Home Screen**  
    Displays today's workout activities and allows quick addition of new workouts.
+   
    ![WhatsApp Image 2025-06-09 at 17 00 49_c3a6c3f3](https://github.com/user-attachments/assets/56cfa93f-de2b-4fcb-bc8e-ee239a267441)
 
 
-2. **Progress Screen**  
+
+3. **Progress Screen**  
    Visualizes the number of workouts per category and duration of each workout using bar charts.
+   
    ![WhatsApp Image 2025-06-09 at 17 00 49_c3a6c3f3](https://github.com/user-attachments/assets/5593fc63-cb7d-49c5-b535-eeb52845dd2a)
 
 
-3. **BMI Screen**  
+
+5. **BMI Screen**  
    Simple BMI calculator where users input weight (kg) and height (cm) to get BMI and health status.
+   
    ![WhatsApp Image 2025-06-09 at 17 00 49_c3a6c3f3](https://github.com/user-attachments/assets/340cb0da-f567-4c29-8ce5-7da923050a5b)
 
 
-4. **Add Workout Screen**
+
+7. **Add Workout Screen**
    Add Workout Screen thorught which User can add their wrokout
    ![WhatsApp Image 2025-06-09 at 17 00 49_77ea0fa1](https://github.com/user-attachments/assets/0ddfe8ea-de94-4817-8e73-1e1f6f85c66d)
 
@@ -52,18 +58,17 @@ The Fitness Tracker App helps users log their daily workouts with details such a
 
 fitness_app/
 ├── main.dart                          # Entry point of the Flutter application
-│
 ├── models/
-│   └── workout.dart                   # Model class for workout data
-│
+    └── workout.dart                   # Model class for workout data
+
 ├── screens/
-│   ├── home_screen.dart               # Home screen with today's activities
-│   ├── progress_screen.dart           # Progress visualization (charts/stats)
-│   ├── bmi_screen.dart                # BMI calculator screen
-│   └── add_workout_screen.dart        # Form to add a new workout
-│
+    ├── home_screen.dart               # Home screen with today's activities
+    ├── progress_screen.dart           # Progress visualization (charts/stats)
+    ├── bmi_screen.dart                # BMI calculator screen
+    └── add_workout_screen.dart        # Form to add a new workout
+
 ├── widgets/
-│   └── workout_card.dart              # Reusable card widget for workouts
+    └── workout_card.dart              # Reusable card widget for workouts
 
 
 
