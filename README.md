@@ -61,14 +61,18 @@ The Fitness Tracker App helps users log their daily workouts with details such a
 
 ## Getting Started
 
-1. Clone the repository : by copying the Url and write the Command 
+1. Clone the repository : by copying the Url and write the Command
+
     git clone 'url'
 
-2. Navigate to the project Directory
+3. Navigate to the project Directory
+
     cd fitness_app
 
-3. Install Dependencies by this Command
+5. Install Dependencies by this Command
+   
     flutter pub get
 
-4. Run project by this Command
+7. Run project by this Command
+   
     flutter run 
