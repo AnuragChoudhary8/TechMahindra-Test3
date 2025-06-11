@@ -42,19 +42,18 @@ The Fitness Tracker App helps users log their daily workouts with details such a
  
  ├── models/
  
- │    └── workout.dart
+      └── workout.dart
  ├── screens/
  
- │    ├── home_screen.dart
+      ├── home_screen.dart
  
- │    ├── progress_screen.dart
+      ├── progress_screen.dart
  
- │    ├── bmi_screen.dart
+      ├── bmi_screen.dart
  
- │    └── add_workout_screen.dart
+        └── add_workout_screen.dart
  
  └── widgets/
- 
       └── workout_card.dart
 
 
