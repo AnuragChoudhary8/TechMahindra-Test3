@@ -37,17 +37,21 @@ The Fitness Tracker App helps users log their daily workouts with details such a
 
 ## Folder Structure
 
-    lib/
- ├── main.dart
- ├── models/
-      └── workout.dart
- ├── screens/
-      ├── home_screen.dart
-      ├── progress_screen.dart
-      ├── bmi_screen.dart
-      └── add_workout_screen.dart
- └── widgets/
-      └── workout_card.dart
+fitness_app/
+├── main.dart                          # Entry point of the Flutter application
+│
+├── models/
+│   └── workout.dart                   # Model class for workout data
+│
+├── screens/
+│   ├── home_screen.dart               # Home screen with today's activities
+│   ├── progress_screen.dart           # Progress visualization (charts/stats)
+│   ├── bmi_screen.dart                # BMI calculator screen
+│   └── add_workout_screen.dart        # Form to add a new workout
+│
+├── widgets/
+│   └── workout_card.dart              # Reusable card widget for workouts
+
 
 
 
